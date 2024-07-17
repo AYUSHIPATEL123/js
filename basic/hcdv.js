@@ -23,3 +23,20 @@ let d1=typeof d;
 let e1=typeof e;
 
 console.table([n,c,b,d,e,n1,c1,b1,d1,e1]);
+
+
+// lets see what can done with heap and stack in primitive and non-primitive datatypes
+
+let userName = "AYUSHIPATEL123";
+let alterUserName=userName;
+alterUserName="ayushi123";
+console.table([userName,alterUserName]);
+
+let contact = {
+    number:4448515714,
+    email:"jbsckds@gnail.com"
+}
+
+let contact2=contact;
+contact2.number=1541544554;
+console.table([contact,contact2]);
